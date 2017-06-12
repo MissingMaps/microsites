@@ -418,6 +418,11 @@ prose:
              value: 'Zambia'
            - name: 'Zimbabwe'
              value: 'Zimbabwe'
+      - name: "osm-link"
+        field:
+          element: "text"
+          placeholder: "http://www.openstreetmap.org/#map=z/lat/lon"
+          help: "The link provided should match the link seen in the placeholder"
       - name: "flag-filename"
         field:
           element: "text"
