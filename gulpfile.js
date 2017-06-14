@@ -48,7 +48,8 @@ gulp.task('compress:main', function () {
   // main.min.js
   var task = gulp.src([
     'app/assets/scripts/*.js',
-    '!app/assets/scripts/buildCountryPages.js'
+    '!app/assets/scripts/build*',
+    '!app/assets/scripts/google*'
   ])
   .pipe(babel({
     presets: ['es2015']
