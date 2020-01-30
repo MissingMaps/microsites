@@ -5,7 +5,7 @@
 -------------------------------------------------------*/
 
 function getPrimaryStats(countryId) {
-  const url = `https://osm-stats-prod-api.azurewebsites.net/countries/${countryId}`;
+  const url = `https://osm-stats-production-api.azurewebsites.net/countries/${countryId}`;
   $.getJSON(url, function(countryData) {
     if (countryData.all_edits !== null) {
       // round value for select stats, then add them to page
@@ -281,7 +281,7 @@ function generateEvents(calendarId) {
   if (calendarId.match(/google/)) {
     $("#events-spinner").css("display", "block");
     const url =
-      "https://osm-stats-prod-api.azurewebsites.net/calendar/" +
+      "https://osm-stats-production-api.azurewebsites.net/calendar/" +
       calendarId +
       "/events";
     const currentDate = new Date();
@@ -410,7 +410,7 @@ function generateUserUrl(userName) {
 }
 
 function getUserActivityStats(countryId) {
-  const url = `https://osm-stats-prod-api.azurewebsites.net/countries/${countryId}/users`;
+  const url = `https://osm-stats-production-api.azurewebsites.net/countries/${countryId}/users`;
   $.getJSON(url, function(userData) {
     if (userData.length !== 0) {
       const totalSum = Object.keys(userData)
@@ -477,7 +477,7 @@ function generateHashtagUrl(hashtag) {
 
 // populate 'teams' graphs, which show activity per hashtag
 function getGroupActivityStats(countryId) {
-  const url = `https://osm-stats-prod-api.azurewebsites.net/countries/${countryId}/hashtags`;
+  const url = `https://osm-stats-production-api.azurewebsites.net/countries/${countryId}/hashtags`;
   $.getJSON(url, function(hashtagData) {
     /*
       For each hashtag, generate obj with link to hashtag's mm-leaderboards
