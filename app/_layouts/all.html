@@ -25,7 +25,7 @@ layout: default
    -------------------------------------------------------*/
   function makeCountriesSelection() {
     $("#countries-list").css("display", "none");
-    const url = "https://osm-stats-prod-api.azurewebsites.net/countries";
+    const url = "https://osm-stats-production-api.azurewebsites.net/countries";
     $.getJSON(url, function(countriesList) {
       let countries = [];
       countriesList = countriesList.map(countryObj => {
