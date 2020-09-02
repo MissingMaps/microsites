@@ -89,7 +89,7 @@
     "@turf/helpers": "^5.0.4",
     "babel-core": "^6.26.0",
     "global": "^4.3.2",
-    "googleapis": "^23.0.0",
+    "googleapis": "^39.1.0",
     "gulp-autoprefixer": "*",
     "gulp-sass": "*",
     "gulp-sourcemaps": "^2.6.1",
