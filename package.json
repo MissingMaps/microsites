@@ -93,7 +93,7 @@
     "gulp-autoprefixer": "*",
     "gulp-sass": "*",
     "gulp-sourcemaps": "^2.6.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "lodash.omitby": "^4.6.0",
     "natives": "*"
   }
