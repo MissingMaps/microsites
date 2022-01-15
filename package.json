@@ -67,7 +67,7 @@
     "i18n-iso-countries": "^3.2.2",
     "js-yaml": "^3.13.1",
     "lazypipe": "^1.0.1",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "minimist": "^1.2.0",
     "moment": "^2.19.3",
     "node-markdown": "*",
