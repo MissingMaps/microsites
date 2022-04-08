@@ -69,7 +69,7 @@
     "lazypipe": "^1.0.1",
     "marked": "^0.7.0",
     "minimist": "^1.2.0",
-    "moment": "^2.19.3",
+    "moment": "^2.29.2",
     "node-markdown": "*",
     "node-nominatim2": "*",
     "path": "^0.12.7",
