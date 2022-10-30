@@ -38,7 +38,7 @@
     "async": "^2.6.0",
     "babel-preset-es2015": "*",
     "bower": "^1.8.8",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "chai": "^4.1.2",
     "colors": "*",
     "country-reverse-geocoding": "^0.2.2",
